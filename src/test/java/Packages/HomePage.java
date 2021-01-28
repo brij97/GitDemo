@@ -28,6 +28,7 @@ public void pageNavigation() throws IOException
 	lp.Submit().click();
 	lp.Password().sendKeys("Gyan$123");
 	lp.SigninSubmit().click();
+	System.out.println("updated github")
 	
 }
 
